@@ -607,43 +607,31 @@ footer { background-color: #0f141e; color: white; padding: 40px 0; text-align: c
 }
 
 @media (max-width: 768px) {
-    /* 1. Menu Mobile */
     .btn-header { display: none; }
     .menu-btn { display: block; }
     .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(31, 42, 68, 0.98); padding: 20px 0; box-shadow: 0 10px 20px rgba(0,0,0,0.2); text-align: center; gap: 20px; }
     .nav-links.active { display: flex; }
-
-    /* 2. Hero Section (CORREÇÃO APLICADA AQUI) */
-    .hero-split { padding-top: 130px; padding-bottom: 60px; min-height: auto; } /* Mais espaço no topo */
-    .hero-content { flex-direction: column; text-align: center; gap: 40px; } /* Mudamos para 'column' para o texto vir antes da imagem */
-    
+    .hero-split { padding-top: 130px; padding-bottom: 60px; min-height: auto; } 
+    .hero-content { flex-direction: column; text-align: center; gap: 40px; } 
     .hero-text { max-width: 100%; margin-top: 0; }
     .hero-text h1 { font-size: 2.3rem; margin-top: 15px; }
     .hero-buttons { justify-content: center; flex-direction: column; gap: 15px; align-items: center; margin-top: 20px; }
     .btn-primary-glow, .btn-secondary-outline { width: 100%; max-width: 300px; text-align: center; }
-    
     .hero-image-wrapper { margin-top: 20px; }
     .hero-image-wrapper img { width: 90%; max-width: 350px; margin-bottom: 30px; }
     .floating-card { bottom: 0px; left: 38%; transform: translateX(-50%); width: max-content; }
-
-    /* 3. Seções "Quem Sou" e "Sobre" */
     .quem-sou-container { flex-direction: column-reverse; text-align: center; }
     .sobre-container { flex-direction: column; text-align: center; }
     .quem-sou-img img { box-shadow: 0 15px 0 var(--primary); margin-bottom: 20px; }
     .sobre-img img { box-shadow: 15px 15px 0 rgba(0,0,0,0.2); margin-bottom: 20px; }
     .lista-metodo li { text-align: left; }
-
-    /* 4. Grades viram 1 coluna só */
     .cards-grid, .pricing-grid { grid-template-columns: 1fr; gap: 30px; }
     .objetivos-grid { flex-direction: column; align-items: center; gap: 20px; }
     .obj-item { width: 100%; max-width: 350px; }
-
-    /* 5. Ajustes de Contato e Formulário */
     .contato-info h2 { font-size: 2rem; }
     .form-wrapper { padding: 25px 20px; }
-
-    /* 6. Carrossel */
     .carrossel-item { padding: 0 15px; }
     .carrossel-item video { max-width: 100%; }
     .carrossel-btn { width: 40px; height: 40px; font-size: 16px; }
+
 }
