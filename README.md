@@ -22,7 +22,7 @@ O objetivo deste site é apresentar os serviços, o método de trabalho (Método
 
 ## 🌐 Acesso ao Site
 O site está publicado e pode ser acessado através do link:
-[Insira o link do seu GitHub Pages aqui]
+(https://ellyvc23.github.io/Social-Media-Kethlyn/)
 
 ---
 Desenvolvido com dedicação por Ellyson.
