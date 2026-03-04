@@ -422,6 +422,7 @@ nav { display: flex; align-items: center; gap: 30px; }
 }
 .popular-badge {
     position: absolute;
+    width: max-content;
     top: -15px;
     left: 50%;
     transform: translateX(-50%);
